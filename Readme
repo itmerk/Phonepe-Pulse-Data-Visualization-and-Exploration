@@ -10,9 +10,19 @@ Interactive charts and graphs for deeper analysis.
 Installation
 Clone the repository:
 
+REQUIRED LIBRARIES:
+
+1.Github Cloning
+2.Python
+3.Pandas
+4.MySQL
+5.mysql-connector-python
+6.Streamlit
+7.Plotly
+
 bash
 Copy code
-git clone https://github.com/your_username/phonepe-pulse.git
+git clone https://github.com/PhonePe/pulse.git
 Navigate to the project directory:
 
 bash
