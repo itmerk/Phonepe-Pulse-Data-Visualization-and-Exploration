@@ -1,23 +1,35 @@
-# Phonepe Pulse Data Visualization and Exploration
+# Phonepe Pulse Data Visualization
 
-Overview
-This project aims to visualize and explore data related to Phonepe Pulse, providing insights into user activity, trends, and patterns over time and across different regions.
+## Overview
+This project aims to extract, transform, and visualize data from the Phonepe Pulse GitHub repository, providing valuable insights and information in an interactive and visually appealing manner through a live geo visualization dashboard. The data is stored in a MySQL database for efficient storage and retrieval.
 
-Features
-Visualizations of Phonepe Pulse data.
-Exploration of user activity, trends, and patterns.
-Interactive charts and graphs for deeper analysis.
-Installation
-Clone the repository:
+## Features
+- Data extraction from Phonepe Pulse GitHub repository
+- Data transformation and cleaning using Python and Pandas
+- Insertion of transformed data into MySQL database
+- Creation of live geo visualization dashboard using Streamlit and Plotly
+- Dashboard includes multiple dropdown options for users to select different facts and figures
+- Secure, efficient, and user-friendly solution
 
-REQUIRED LIBRARIES:
+## Approach
+1. **Data Extraction**: Cloning the GitHub repository using scripting to fetch the data.
+2. **Data Transformation**: Pre-processing and cleaning the data using Python and Pandas.
+3. **Database Insertion**: Storing the transformed data in a MySQL database using "mysql-connector-python".
+4. **Dashboard Creation**: Building an interactive and visually appealing dashboard using Streamlit and Plotly.
+5. **Data Retrieval**: Fetching data from the MySQL database into Pandas dataframe to update the dashboard dynamically.
+6. **Deployment**: Testing and deploying the solution publicly for easy access.
 
-1.Github Cloning
-2.Python
-3.Pandas
-4.MySQL
-5.mysql-connector-python
-6.Streamlit
-7.Plotly
+## Usage
+1. Clone the repository: `git clone https://github.com/yourusername/phonepe-pulse.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the Streamlit app: `streamlit run app.py`
 
+## Requirements
+- Python 3.x
+- Pandas
+- Plotly
+- Streamlit
+- mysql-connector-python
 
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes. For major changes, please open an issue first to discuss the proposed changes.
